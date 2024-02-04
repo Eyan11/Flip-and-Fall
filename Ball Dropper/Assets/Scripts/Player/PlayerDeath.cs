@@ -1,0 +1,56 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PlayerDeath : MonoBehaviour
+{
+    private GameManager gameManager;
+    private Rigidbody body;
+    private Scene currentScene;
+    [HideInInspector] public bool playerAlive = true;
+    
+    // Retrieves GameManager
+    private void Start() {
+        gameManager = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameManager>();
+        body = gameObject.GetComponent<Rigidbody>();
+        currentScene = SceneManager.GetActiveScene();
+    }
+    
+    // Checks objects that collide with player; any with "Obstacle" tag triggers death
+    private void OnCollisionEnter(Collision collision) {
+        if (playerAlive == false) {
+            return;
+        }
+
+        GameObject obj = collision.gameObject;
+
+        if (obj.tag != "Obstacle") {
+            return;
+        }
+
+        Debug.Log("Dead!");
+
+        // Freezes player, changes their state to "unalive" and updates coin counter
+        body.isKinematic = true;
+        playerAlive = false;
+        gameManager.CompletedDrop();
+    }
+
+    // When dead, allow the player to restart the level on 'R' press down
+    private void Update() {
+        if (playerAlive == true) {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.R) == false) {
+            return;
+        }
+
+        Debug.Log("Restarting level!");
+
+        // No other variables in the player need to be changed back
+        // The player is not preserved (or shouldn't be)
+        SceneManager.LoadScene(currentScene.name);
+    }
+}
