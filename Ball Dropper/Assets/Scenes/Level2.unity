@@ -3253,6 +3253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAlive: 1
+  hasWon: 0
 --- !u!1 &1705596780
 GameObject:
   m_ObjectHideFlags: 0

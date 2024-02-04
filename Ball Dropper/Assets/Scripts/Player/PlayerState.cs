@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerDeath : MonoBehaviour
+public class PlayerState : MonoBehaviour
 {
     private GameManager gameManager;
     private Rigidbody body;
     private Scene currentScene;
     [HideInInspector] public bool playerAlive = true;
+    [HideInInspector] public bool hasWon = false;
     
     // Retrieves GameManager
     private void Start() {
@@ -26,6 +27,10 @@ public class PlayerDeath : MonoBehaviour
         GameObject obj = collision.gameObject;
 
         if (obj.tag != "Obstacle") {
+            return;
+        }
+
+        if (hasWon == true) {
             return;
         }
 
