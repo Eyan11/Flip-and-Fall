@@ -1,0 +1,390 @@
+Unity Editor version:    2022.3.17f1 (4fc78088f837)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.1 (Build 21G217)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/josuebracamontes/Documents/GitHub/Ball-Dropper/Ball Dropper
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49851
+Successfully changed project path to: /Users/josuebracamontes/Documents/GitHub/Ball-Dropper/Ball Dropper
+/Users/josuebracamontes/Documents/GitHub/Ball-Dropper/Ball Dropper
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4405511552] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1312592409 [EditorId] 1312592409 [Version] 1048832 [Id] OSXEditor(0,josues-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4405511552] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1312592409 [EditorId] 1312592409 [Version] 1048832 [Id] OSXEditor(0,josues-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 9.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/josuebracamontes/Documents/GitHub/Ball-Dropper/Ball Dropper/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002783 seconds.
+- Loaded All Assemblies, in  0.320 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.185 seconds
+Domain Reload Profiling: 505ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.538 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.350 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (54.1 KB). Loaded Objects now: 3565.
+Memory consumption went from 237.2 MB to 237.2 MB.
+Total: 12.780833 ms (FindLiveObjects: 0.163750 ms CreateObjectMapping: 0.038208 ms MarkObjects: 12.339834 ms  DeleteObjects: 0.236291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 895842.435861 seconds.
+  path: Assets/LevelOneAssets
+  artifactKey: Guid(78a521e67dfdc4cf0b995d965b94464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssets using Guid(78a521e67dfdc4cf0b995d965b94464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5571b1e210f789b5843e8955bb151941') in 0.012352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 141.284845 seconds.
+  path: Assets/LevelOneAssets/CastleLevelOne.unitypackage
+  artifactKey: Guid(4a694de8a39c246cb9c7a204e2f41a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssets/CastleLevelOne.unitypackage using Guid(4a694de8a39c246cb9c7a204e2f41a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2a78e108c751a76a3916af4b3bc757') in 0.052103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.751793 seconds.
+  path: Assets/Level2/Cartoon Textures
+  artifactKey: Guid(873a7f33ddcf9416484e1dcdf4ddf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level2/Cartoon Textures using Guid(873a7f33ddcf9416484e1dcdf4ddf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa839c62031217be51d4cf625192a9fc') in 0.007689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.529942 seconds.
+  path: Assets/LevelOneAssetss/PrefabLevel
+  artifactKey: Guid(97c87741ee90b4c7387703caa753c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/PrefabLevel using Guid(97c87741ee90b4c7387703caa753c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14210505fd93740e0604f5e8024e44dd') in 0.009077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054053 seconds.
+  path: Assets/LevelOneAssetss/PrefabLevel/CastleLevel.prefab
+  artifactKey: Guid(a0d5b5447670143a2ba68a1e584f21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/PrefabLevel/CastleLevel.prefab using Guid(a0d5b5447670143a2ba68a1e584f21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c344c421aaa44364092a82ef7ce29944') in 0.826365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1861
+========================================================================
+Received Import Request.
+  Time since last request: 62.297073 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models
+  artifactKey: Guid(f022dcbc8f6384a0588faa0640e4e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models using Guid(f022dcbc8f6384a0588faa0640e4e2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc0e886e5d2882a1a8fbaa30deecd92') in 0.020966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.043419 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/flagBannerLong.fbx
+  artifactKey: Guid(02da7501cac3f484b8d84ca0c831b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/flagBannerLong.fbx using Guid(02da7501cac3f484b8d84ca0c831b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8129b060997cd5e110d94f3ce8915d7') in 0.094746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/sword.fbx
+  artifactKey: Guid(df3dc5a150b0a46a0bef40c688b7cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/sword.fbx using Guid(df3dc5a150b0a46a0bef40c688b7cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d71801f9fcfbb5f639c68ab0d45298') in 0.022614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/siegeCatapult.fbx
+  artifactKey: Guid(4a7f6678609044b26a07ad1a06a3b428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/siegeCatapult.fbx using Guid(4a7f6678609044b26a07ad1a06a3b428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a851e00922202fafd21fc1408f45296e') in 0.091440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/towerSquareRoof.fbx
+  artifactKey: Guid(af4db8e7300e1478cb2e7cc2a7203d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/towerSquareRoof.fbx using Guid(af4db8e7300e1478cb2e7cc2a7203d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc396dfa021aaeb778ca50e4413c24') in 0.019053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/stairsStone.fbx
+  artifactKey: Guid(7cf59e847983b42009f6b33413875cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/stairsStone.fbx using Guid(7cf59e847983b42009f6b33413875cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757772de86b3df290aeb267c386499dc') in 0.013224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/gate.obj
+  artifactKey: Guid(330c88022a0c749ed9731fded3417ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/gate.obj using Guid(330c88022a0c749ed9731fded3417ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5319b0382245b777b6b7e2ce99842c') in 0.018915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/towerSquarePoles.fbx
+  artifactKey: Guid(8501119cdfdef436ea94544350852d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/towerSquarePoles.fbx using Guid(8501119cdfdef436ea94544350852d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace1cb9bdcb0deb32c049ee2a670e3ee') in 0.021460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/stairsStoneSlant.obj
+  artifactKey: Guid(1e8f7b98c9e304cfaaaf7fef325d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/stairsStoneSlant.obj using Guid(1e8f7b98c9e304cfaaaf7fef325d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20430c04bdb22d2f0090b4ca347bd4c') in 0.019893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/shieldBlue.fbx
+  artifactKey: Guid(5ff971950126e4664b344d23cff866f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/shieldBlue.fbx using Guid(5ff971950126e4664b344d23cff866f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb1194c8bbd2db385c7eb3d472dd228') in 0.016883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/towerSquareTopRoof.fbx
+  artifactKey: Guid(4f06c8416eeeb4944bc231ad68a120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/towerSquareTopRoof.fbx using Guid(4f06c8416eeeb4944bc231ad68a120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5547b81dab502fda36b10d8edf5471f') in 0.016800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/towerSquareMid.fbx
+  artifactKey: Guid(f9d3ff4525c5a46cca3b48f1258b83e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/towerSquareMid.fbx using Guid(f9d3ff4525c5a46cca3b48f1258b83e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cb3f46cd8cacf51871ea07f0620ac0') in 0.014899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/siegeBallista.fbx
+  artifactKey: Guid(abf9fa26a8e414628b481109c9350e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/siegeBallista.fbx using Guid(abf9fa26a8e414628b481109c9350e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a00d1cadd19b55b3ae2e171dc25420') in 0.070232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/siegeBallista.obj
+  artifactKey: Guid(ea1d079095d0246c3988b8e6d2df8d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/siegeBallista.obj using Guid(ea1d079095d0246c3988b8e6d2df8d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af72dc79e1e102537e6a1199a006d206') in 0.077629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/metalGate.fbx
+  artifactKey: Guid(66106747c64924ee6977d5a2232c2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/metalGate.fbx using Guid(66106747c64924ee6977d5a2232c2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f4881df7bd4302e7eef681c9668b92') in 0.014838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.395683 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/towerTop.obj
+  artifactKey: Guid(926b4a6fca93c4db5929b6d904c981d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/towerTop.obj using Guid(926b4a6fca93c4db5929b6d904c981d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c660d3ef9517c1423a854e9caf18c2f4') in 0.013642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/wallCornerHalfTower.fbx
+  artifactKey: Guid(73601eb564cdd4c3f936672c2463f359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/wallCornerHalfTower.fbx using Guid(73601eb564cdd4c3f936672c2463f359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f10f7463b6c8ba849a36e0446094cab') in 0.024877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/wallCorner.fbx
+  artifactKey: Guid(dad9a44215de94dfdbc3389b04b6e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/wallCorner.fbx using Guid(dad9a44215de94dfdbc3389b04b6e26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2d8b7e1cb4e633f700b3d2a48c58f8') in 0.032562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/wall.fbx
+  artifactKey: Guid(7a6b63e4a00b64506ae3d500cc26409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/wall.fbx using Guid(7a6b63e4a00b64506ae3d500cc26409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aae3ae0bed0194da75a40aadcde99be') in 0.015291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003895 seconds.
+  path: Assets/LevelOneAssetss/Cstle/Models/wallNarrowWoodFence.fbx
+  artifactKey: Guid(b7395ebe66c684859ad9f97a1f879664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelOneAssetss/Cstle/Models/wallNarrowWoodFence.fbx using Guid(b7395ebe66c684859ad9f97a1f879664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62d5f1b375420b3429f686e7f5a884b') in 0.032368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
