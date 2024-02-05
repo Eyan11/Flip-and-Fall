@@ -43,7 +43,7 @@ public class PlayerState : MonoBehaviour
 
     // When dead, allow the player to restart the level on 'R' press down
     private void Update() {
-        if (playerAlive == true) {
+        if (playerAlive == true && hasWon == false) {
             return;
         }
 
