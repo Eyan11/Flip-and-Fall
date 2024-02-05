@@ -10,6 +10,9 @@ public class Finish : MonoBehaviour
     private void Start() {
         gameManager = GameObject.FindWithTag("Manager").GetComponent<GameManager>();
         audioScript = GameObject.FindWithTag("Manager").GetComponent<AudioManager>();
+
+        // Turns trigger invisible
+        gameObject.GetComponent<MeshRenderer>().enabled = false;
     }
     
     // Only triggers if the player touched it; disables death
