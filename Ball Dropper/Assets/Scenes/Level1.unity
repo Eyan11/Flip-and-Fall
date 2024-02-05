@@ -1397,8 +1397,8 @@ MonoBehaviour:
   audioSource: {fileID: 473137181}
   winSound: {fileID: 8300000, guid: cf96b5568dc73514c82753f0d50a747b, type: 3}
   deathSound: {fileID: 8300000, guid: d28e090184b45e34e95e2b58d3292e76, type: 3}
-  respawnSound: {fileID: 0}
-  portalSound: {fileID: 0}
+  respawnSound: {fileID: 8300000, guid: 558f78031dbd9bb448be8419cc270bd6, type: 3}
+  portalSound: {fileID: 8300000, guid: 99f5af63a8f351d4bbca727db22d57e0, type: 3}
 --- !u!65 &474102654
 BoxCollider:
   m_ObjectHideFlags: 0
