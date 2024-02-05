@@ -5,9 +5,11 @@ using UnityEngine;
 public class Finish : MonoBehaviour
 {
     private GameManager gameManager;
+    private AudioManager audioScript;
     
     private void Start() {
         gameManager = GameObject.FindWithTag("Manager").GetComponent<GameManager>();
+        audioScript = GameObject.FindWithTag("Manager").GetComponent<AudioManager>();
     }
     
     // Only triggers if the player touched it; disables death
@@ -25,7 +27,7 @@ public class Finish : MonoBehaviour
         }
 
         Debug.Log("Victory!");
-
+        audioScript.PlayWinSound();
         playerState.hasWon = true;
     }
 }

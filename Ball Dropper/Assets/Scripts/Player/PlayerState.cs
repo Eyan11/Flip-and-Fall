@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerState : MonoBehaviour
 {
     private GameManager gameManager;
+    private AudioManager audioScript;
     private Rigidbody body;
     private Scene currentScene;
     [HideInInspector] public bool playerAlive = true;
@@ -14,6 +15,7 @@ public class PlayerState : MonoBehaviour
     // Retrieves GameManager
     private void Start() {
         gameManager = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameManager>();
+        audioScript = GameObject.FindGameObjectWithTag("Manager").GetComponent<AudioManager>();
         body = gameObject.GetComponent<Rigidbody>();
         currentScene = SceneManager.GetActiveScene();
     }
@@ -37,6 +39,7 @@ public class PlayerState : MonoBehaviour
         Debug.Log("Dead!");
 
         // Freezes player, changes their state to "unalive" and updates coin counter
+        audioScript.PlayDeathSound();
         body.isKinematic = true;
         playerAlive = false;
     }
@@ -55,6 +58,7 @@ public class PlayerState : MonoBehaviour
 
         // No other variables in the player need to be changed back
         // The player is not preserved (or shouldn't be)
+        audioScript.PlayRespawnSound(); //might need to move to after respawning if sound cuts out
         gameManager.CompletedDrop();
         SceneManager.LoadScene(currentScene.name);
     }
