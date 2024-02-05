@@ -39,7 +39,6 @@ public class PlayerState : MonoBehaviour
         // Freezes player, changes their state to "unalive" and updates coin counter
         body.isKinematic = true;
         playerAlive = false;
-        gameManager.CompletedDrop();
     }
 
     // When dead, allow the player to restart the level on 'R' press down
@@ -56,6 +55,7 @@ public class PlayerState : MonoBehaviour
 
         // No other variables in the player need to be changed back
         // The player is not preserved (or shouldn't be)
+        gameManager.CompletedDrop();
         SceneManager.LoadScene(currentScene.name);
     }
 }

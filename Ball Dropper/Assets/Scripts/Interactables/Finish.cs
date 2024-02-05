@@ -26,7 +26,6 @@ public class Finish : MonoBehaviour
 
         Debug.Log("Victory!");
 
-        gameManager.CompletedDrop();
         playerState.hasWon = true;
     }
 }

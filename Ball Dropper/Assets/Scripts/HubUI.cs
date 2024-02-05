@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class HubUI : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class HubUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreTextLvl1;
     [SerializeField] private TextMeshProUGUI coinTextLvl2;
     [SerializeField] private TextMeshProUGUI scoreTextLvl2;
+    [SerializeField] private Image skullImageLvl1;
+    [SerializeField] private Image crownImageLvl1;
+    [SerializeField] private Image skullImageLvl2;
+    [SerializeField] private Image crownImageLvl2;
 
     //called every time hub scene is loaded
     private void Start() {
@@ -25,6 +30,16 @@ public class HubUI : MonoBehaviour
         //update best scores on each level
         scoreTextLvl1.text = "" + gameManagerScript.GetBestScoreLevel1();
         scoreTextLvl2.text = "" + gameManagerScript.GetBestScoreLevel2();
+
+        if(gameManagerScript.GetLevel1WinStatus()) {
+            skullImageLvl1.gameObject.SetActive(false);
+            crownImageLvl1.gameObject.SetActive(true);
+        }
+        else if(gameManagerScript.GetLevel2WinStatus()) {
+            skullImageLvl2.gameObject.SetActive(false);
+            crownImageLvl2.gameObject.SetActive(true);
+        }
+
     }
 
 
