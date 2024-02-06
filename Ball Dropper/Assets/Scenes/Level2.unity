@@ -2073,24 +2073,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26
+      value: 0.22745275
       objectReference: {fileID: 0}
     - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -528.28
+      value: -532.7744
       objectReference: {fileID: 0}
     - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.46
+      value: 0.5898126
       objectReference: {fileID: 0}
     - target: {fileID: 3224718086422280870, guid: 7b38f472a1902c44dbd92f063b406931, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11570,7 +11562,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 8
+      value: 4.923155
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalScale.y
@@ -11578,19 +11570,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 8
+      value: 4.902325
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.26735276
+      value: 0.2201
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -529.78
+      value: -534.2744
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.47781253
+      value: 0.572
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110b1454ae2876a419658894a97bfba7, type: 3}
       propertyPath: m_LocalRotation.w
