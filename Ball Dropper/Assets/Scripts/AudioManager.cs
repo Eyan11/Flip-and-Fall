@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip respawnSound;
     [SerializeField] private AudioClip portalSound;
+    [SerializeField] private AudioClip coinSound;
 
     public void PlayWinSound() {
         //load sound into the component and play it
@@ -31,6 +32,12 @@ public class AudioManager : MonoBehaviour
     public void PlayPortalSound() {
         //load sound into the component and play it
         audioSource.clip = portalSound;
+        audioSource.Play();
+    }
+
+    public void PlayCoinSound() {
+        //load sound into the component and play it
+        audioSource.clip = coinSound;
         audioSource.Play();
     }
 

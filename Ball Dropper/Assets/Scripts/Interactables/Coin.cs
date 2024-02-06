@@ -6,19 +6,21 @@ using UnityEngine.SceneManagement;
 public class Coin : MonoBehaviour
 {
     private GameManager gameManagerScript;
+    private AudioManager audioScript;
 
     //get reference to Manager Script
     private void Start() {
         gameManagerScript = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        audioScript = GameObject.Find("Game Manager").GetComponent<AudioManager>();
     }
 
     private void OnTriggerEnter(Collider other) {
 
-        //if colliding with player
+        //if colliding with player, collect coin
         if(other.gameObject.tag == "Player") {
-            //add coin to currentCoins in level
+
             gameManagerScript.AddCoin();
-            //despawn coin
+            audioScript.PlayCoinSound();
             Destroy(gameObject);
         }
     }
