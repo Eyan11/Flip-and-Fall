@@ -6,7 +6,7 @@ public class PlayerCam : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private Transform focusObject;
-    private Vector3 offset;
+    public Vector3 offset;
     // Calculates initial offset the camera has
     private void Start()
     {
